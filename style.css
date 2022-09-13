@@ -1,0 +1,463 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%; 
+}
+
+.body-home{
+    background-image: url('images/Background\ pic\ 1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images/Background\ pic\ 2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*====== HEADER ======*/
+
+
+.header{
+    background-color: grey;
+    
+    width: 100%;
+    height: 100px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+}
+
+.header i{
+    float:left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff       
+}
+
+.header img{
+    width: 250px;
+    padding-top: 14px;
+    padding-right: 25px;
+    
+}
+
+/*====== HOME PAGE ======*/
+
+#home-logo-img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*====== HOME PAGE MENU ====== */
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    
+    display: grid;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*====== MEALS PAGE ======*/
+#meal{
+    padding-top: 100px;
+}
+
+/*====== MEALS PAGE MENU ====== */
+
+.meal-list a{
+    text-decoration: none;
+}
+
+.meal-list-item{
+    border: 5px solid lightblue;
+    margin: 10px;
+}
+
+.meal-list-item h1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.meal-list-item h2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.meal-list-item h3{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+ 
+}
+
+.meal-list-item i{
+    float: right;
+    color: lightblue;
+    padding-right: 10px;
+}
+
+.meal-list-item p{
+    font-weight: inherit;
+    font-size: 15px;
+    font-style: oblique;
+    color: lightblue;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+.center{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+
+/*====== DRINKS PAGE ======*/
+
+#drinks{
+    padding-top: 100px;
+}
+
+/*====== DRINKS PAGE MENU ====== */
+
+.drinks-list a{
+    text-decoration: none;
+}
+
+.drinks-list-item{
+    border: 5px solid lightblue;
+    margin: 10px;
+}
+
+.drinks-list-item h1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.drinks-list-item h2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.drinks-list-item h3{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+ 
+}
+
+.center{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.drinks-list-item i{
+    float: right;
+    color: lightblue;
+    padding-right: 10px;
+}
+
+.drinks-list-item p{
+    font-weight: inherit;
+    font-size: 15px;
+    font-style: oblique;
+    color: lightblue;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*====== DESSERTS PAGE ======*/
+
+#desserts{
+    padding-top: 100px;
+}
+
+/*====== DESSERTS PAGE MENU ====== */
+
+.desserts-list a{
+    text-decoration: none;
+}
+
+.desserts-list-item{
+    border: 5px solid lightblue;
+    margin: 10px;
+}
+
+.desserts-list-item h1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.desserts-list-item h2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.desserts-list-item h3{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+ 
+}
+
+.center{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.desserts-list-item i{
+    float: right;
+    color: lightblue;
+    padding-right: 10px;
+}
+
+.desserts-list-item p{
+    font-weight: inherit;
+    font-size: 15px;
+    font-style: oblique;
+    color: lightblue;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*====== SALADS PAGE ======*/
+
+#salads{
+    padding-top: 100px;
+}
+
+/*====== SALADS PAGE MENU ====== */
+
+.salads-list a{
+    text-decoration: none;
+}
+
+.salads-list-item{
+    border: 5px solid lightblue;
+    margin: 10px;
+}
+
+.salads-list-item h1{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.salads-list-item h2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.salads-list-item h3{
+    font-weight: bolder;
+    font-size: 30px;
+    color: lightblue;
+    padding-left: 10px;
+    padding-bottom: 20px;
+ 
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.salads-list-item i{
+    float: right;
+    color: lightblue;
+    padding-right: 10px;
+}
+
+.salads-list-item p{
+    font-weight: inherit;
+    font-size: 15px;
+    font-style: oblique;
+    color: lightblue;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*====== RECIPE PAGE ======*/
+
+#recipe{
+    padding-top: 100px;
+}
+
+/*====== RECIPE DETAILS ====== */
+
+.recipe-details img{
+    width: 80%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 10px;
+}
+.recipe-details h2{
+    font-size: 20px;
+    text-align: inherit;
+    text-decoration: inherit;
+    margin: 10px;
+}
+
+.recipe-details-info{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.recipe-details-info p{
+    font-size: 13px;
+    display: inline;
+}
+
+/*====== FORM ======*/
+
+input{
+    width: 100%;
+    height: 20px;
+    margin: 12px 0 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 60px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color:lightblue;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+/*====== RESPONSIVE LAYOUTS ====== */
+
+@media only screen and (min-width: 600px){
+    #meals {
+        width: 50%;
+        margin: auto;
+    }
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    
+     #meals {
+        width: 60%;
+        margin: auto;
+    }
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 1500px){
+    
+     #meals{
+        width: 40%;
+        margin: auto;
+    }
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    .body-home{
+        background-image: url('images/Background\ pic\ 1.jpg');
+    }
+    .body-meals{
+        background-image: url('images/Background\ pic\ 2.jpg');
+    }
+}
